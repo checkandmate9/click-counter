@@ -18,15 +18,19 @@ if(seconds>=duration){
   let modalMessage = "";
   openModal();
   if(clickCount >= 1 && clickCount <=20){
-    modalMessage = "Turtle";
+     document.getElementById("turtleimg").style.display = "block";
+     modalMessage = "Turtle";
   }
   else if (clickCount >= 21 && clickCount <=40){
+    document.getElementById("rabbitimg").style.display = "block";
     modalMessage = "Rabbit";
   }
   else if (clickCount >= 41 &&  clickCount <= 58){
+    document.getElementById("monkeyimg").style.display = "block";
     modalMessage = "Monkey";
   }
   else{
+    document.getElementById("cheetahimg").style.display = "block";
     modalMessage = "Cheetah";
   }
   document.getElementById("modalMessage").textContent = modalMessage;

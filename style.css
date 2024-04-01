@@ -15,12 +15,12 @@
 
 .modal {
   display: none; /* Modalı başlangıçta gizle */
-  position: fixed;
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: white;
-  padding: 400px;
+  padding: 100px;
   border: 2px solid black;
   border-radius: 8px;
   z-index: 9999;
@@ -43,4 +43,9 @@
   font-size: 15px;
   box-sizing: border-box;
 
+}
+
+image{
+  width: 300px;
+  height: 300px;
 }
