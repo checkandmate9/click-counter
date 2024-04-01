@@ -1,5 +1,6 @@
 body{
   background: linear-gradient(135deg, #a3c001, #ffd000);
+  
 }
 
 
@@ -50,12 +51,13 @@ body{
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: rgb(159,84,176);
-  padding: 140px;
-  width: 700px;
+  padding: 5%;
+  width: 30%;
   border: 2px solid black;
   border-radius: 29px;
-  z-index: 9999;
+  z-index: 1;
   font-size: 28px;
+  zoom: 0.7;
 }
 
 .modal-content {
