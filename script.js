@@ -64,4 +64,3 @@ restartButton.addEventListener('click', function(){
   myButton.style.display = "block";
   restartButton.style.display = "none";
 });
-//deneme
