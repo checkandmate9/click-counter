@@ -1,5 +1,5 @@
 body{
-  background: linear-gradient(135deg, #2a0769, #4e085f);
+  background: linear-gradient(135deg, #a3c001, #ffd000);
 }
 
 
@@ -12,12 +12,24 @@ body{
 }
 
 .tanıtımm{
+  
   position: relative;
-  font-size: 58px;
-  left: 67px;
+  font-size: 20px;
+  left: 33%;
   bottom: 200px;
   margin-left: 57px;
 }
+
+.reqq{
+  position: relative;
+  font-size: 20px;
+  left: 67px;
+  bottom: 200px;
+  white-space: nowrap;  
+  margin-right: 200px;
+}
+
+
 
 #myButton{
   position: fixed;
@@ -37,10 +49,11 @@ body{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background: linear-gradient(135deg, #FFA500, #fcaf1f );
-  padding: 100px;
+  background-color: rgb(159,84,176);
+  padding: 140px;
+  width: 700px;
   border: 2px solid black;
-  border-radius: 8px;
+  border-radius: 29px;
   z-index: 9999;
   font-size: 28px;
 }
@@ -51,23 +64,15 @@ body{
 
 .modalMessagee{
   position: relative;
-  top: 150px;
+  top: 488px;
 }
 
 .modalMessagee2 {
   position: fixed;
-  top: 50px;
+  top: 100px;
   right: 56px;
 }
 
-.reqq{
-  position: relative;
-  font-size: 58px;
-  left: 67px;
-  bottom: 200px;
-  white-space: nowrap;  
-  margin-right: 200px;
-}
 
 
 .close {
@@ -90,30 +95,26 @@ body{
 }
 
 #turtleimg{
-  width: 340px;
-  height: 200px;
+ 
   position: relative;
   bottom: 190px;
-  right: 150px;
+  right: 200px;
 }
 #rabbitimg{ 
-  width: 340px;
-  height: 200px;                             
+                              
   position: relative;
-  bottom: 190px;
+  bottom: 200px;
   right: 150px;
 }
 #monkeyimg{
-  width: 340px;
-  height: 200px;
+ 
   position: relative;
-  bottom: 190px;
+  bottom: 200px;
   right: 150px;
 }
 #cheetahimg{
-  width: 340px;
-  height: 200px;
+  
   position: relative;
-  bottom: 190px;
+  bottom: 200px;
   right: 150px;
 }

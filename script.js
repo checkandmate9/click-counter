@@ -18,25 +18,25 @@ if(seconds>=duration){
   let modalMessage = "";
   let modalMessage2= ``;
   openModal();
-  if(clickCount >= 1 && clickCount <=20){
+  if(clickCount >= 1 && clickCount <=2){
      document.getElementById("turtleimg").style.display = "block";
      modalMessage = "You are a turtle, get your lazy ass up!!";
-     modalMessage2 = `You have clicked ${clickCount} times`;
+     modalMessage2 = `You have clicked ${clickCount} times  in ${duration} second!!`;
   }
-  else if (clickCount >= 21 && clickCount <=40){
+  else if (clickCount >= 3 && clickCount <=4){
     document.getElementById("rabbitimg").style.display = "block";
     modalMessage = "You are a rabbit, looks like you've got some finger there! ";
-    modalMessage2 = `You have clicked ${clickCount} times`;
+    modalMessage2 = `You have clicked ${clickCount} times in ${duration} second!!`;
   }
-  else if (clickCount >= 41 &&  clickCount <= 58){
+  else if (clickCount >= 5 &&  clickCount <= 6){
     document.getElementById("monkeyimg").style.display = "block";
     modalMessage = "You are a monkey, perhaps? do monkeys have fast fingers??";
-    modalMessage2 = `You have clicked ${clickCount} times`;
+    modalMessage2 = `You have clicked ${clickCount} times in ${duration} second!!`;
   }
   else{
     document.getElementById("cheetahimg").style.display = "block";
     modalMessage = "You are a cheetah, your lover must love you very bad!! ;)";
-    modalMessage2 = `You have clicked ${clickCount} times`;
+    modalMessage2 = `You have clicked ${clickCount} times in ${duration} second!!`;
   }
   document.getElementById("modalMessage").textContent = modalMessage;
   document.getElementById("modalMessage2").textContent = modalMessage2;
