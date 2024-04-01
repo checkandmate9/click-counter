@@ -19,19 +19,19 @@ if(seconds>=duration){
   openModal();
   if(clickCount >= 1 && clickCount <=20){
      document.getElementById("turtleimg").style.display = "block";
-     modalMessage = "Turtle";
+     modalMessage = "You are a turtle, get your lazy ass up!!";
   }
   else if (clickCount >= 21 && clickCount <=40){
     document.getElementById("rabbitimg").style.display = "block";
-    modalMessage = "Rabbit";
+    modalMessage = "You are a rabbit, looks like you've got some finger there! ";
   }
   else if (clickCount >= 41 &&  clickCount <= 58){
     document.getElementById("monkeyimg").style.display = "block";
-    modalMessage = "Monkey";
+    modalMessage = "You are a monkey, perhaps? do monkeys have fast fingers??";
   }
   else{
     document.getElementById("cheetahimg").style.display = "block";
-    modalMessage = "Cheetah";
+    modalMessage = "You are a cheetah, your lover must love you very bad!! ;)";
   }
   document.getElementById("modalMessage").textContent = modalMessage;
 }

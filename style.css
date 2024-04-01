@@ -1,8 +1,14 @@
+body{
+  background: linear-gradient(135deg, #2a0769, #4e085f);
+}
+
+
 .container{
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  
 }
 
 
@@ -10,26 +16,35 @@
   width: 431px;
   height: 231px;
   font-size: 31px;
+  border-radius: 59px;
   box-sizing: border-box;
 }
 
 .modal {
   display: none; /* Modalı başlangıçta gizle */
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: white;
+  background: linear-gradient(135deg, #FFA500, #fcaf1f );
   padding: 100px;
   border: 2px solid black;
   border-radius: 8px;
   z-index: 9999;
-  font-size: 20px;
+  font-size: 28px;
 }
 
 .modal-content {
   text-align: center;
 }
+
+.modalMessagee{
+  position: relative;
+  top: 150px;
+
+}
+
+
 
 .close {
   position: absolute;
@@ -41,11 +56,35 @@
   width: 231px;
   height: 131px;
   font-size: 15px;
+  border-radius: 59px;
   box-sizing: border-box;
 
 }
 
-image{
-  width: 300px;
-  height: 300px;
+#turtleimg{
+  width: 340px;
+  height: 200px;
+  position: relative;
+  bottom: 190px;
+  right: 150px;
+}
+#rabbitimg{ 
+  width: 340px;
+  height: 200px;                             position: relative;
+  bottom: 190px;
+  right: 150px;
+}
+#monkeyimg{
+  width: 340px;
+  height: 200px;
+  position: relative;
+  bottom: 190px;
+  right: 150px;
+}
+#cheetahimg{
+  width: 340px;
+  height: 200px;
+  position: relative;
+  bottom: 190px;
+  right: 150px;
 }
