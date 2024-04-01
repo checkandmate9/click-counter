@@ -18,17 +18,17 @@ if(seconds>=duration){
   let modalMessage = "";
   let modalMessage2= ``;
   openModal();
-  if(clickCount >= 1 && clickCount <=2){
+  if(clickCount >= 1 && clickCount <=20){
      document.getElementById("turtleimg").style.display = "block";
      modalMessage = "You are a turtle, get your lazy ass up!!";
-     modalMessage2 = `You have clicked ${clickCount} times  in ${duration} second!!`;
+     modalMessage2 = `You have clicked ${clickCount} times in ${duration} second!!`;
   }
-  else if (clickCount >= 3 && clickCount <=4){
+  else if (clickCount >= 21 && clickCount <=40){
     document.getElementById("rabbitimg").style.display = "block";
     modalMessage = "You are a rabbit, looks like you've got some finger there! ";
     modalMessage2 = `You have clicked ${clickCount} times in ${duration} second!!`;
   }
-  else if (clickCount >= 5 &&  clickCount <= 6){
+  else if (clickCount >= 41 &&  clickCount <= 58){
     document.getElementById("monkeyimg").style.display = "block";
     modalMessage = "You are a monkey, perhaps? do monkeys have fast fingers??";
     modalMessage2 = `You have clicked ${clickCount} times in ${duration} second!!`;
