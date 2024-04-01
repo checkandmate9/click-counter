@@ -11,8 +11,19 @@ body{
   
 }
 
+.tanıtımm{
+  position: relative;
+  font-size: 58px;
+  left: 67px;
+  bottom: 200px;
+  margin-left: 57px;
+}
 
 #myButton{
+  position: fixed;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   width: 431px;
   height: 231px;
   font-size: 31px;
@@ -41,9 +52,21 @@ body{
 .modalMessagee{
   position: relative;
   top: 150px;
-
 }
 
+.modalMessagee2 {
+  position: fixed;
+  top: 50px;
+  right: 56px;
+}
+
+.reqq{
+  position: relative;
+  font-size: 58px;
+  left: 67px;
+  bottom: 200px;
+  white-space: nowrap;  
+}
 
 
 .close {
@@ -56,6 +79,10 @@ body{
   width: 231px;
   height: 131px;
   font-size: 15px;
+  position: fixed;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   border-radius: 59px;
   box-sizing: border-box;
 
@@ -70,7 +97,8 @@ body{
 }
 #rabbitimg{ 
   width: 340px;
-  height: 200px;                             position: relative;
+  height: 200px;                             
+  position: relative;
   bottom: 190px;
   right: 150px;
 }
