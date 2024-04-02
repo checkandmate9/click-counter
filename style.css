@@ -65,7 +65,7 @@ body{
 }
 
 .modalMessagee{
-  position: relative;
+  position: fixed;
   top: 488px;
 }
 
@@ -97,7 +97,6 @@ body{
 }
 
 #turtleimg{
- 
   position: relative;
   bottom: 190px;
   right: 200px;

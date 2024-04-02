@@ -7,16 +7,15 @@ let timerStarted = false;
 const timeInterval = setInterval(() => {
   if(timerStarted){
   seconds++;
+  document.getElementById("seconds").innerHTML = seconds
 if(seconds>=duration){
   clearInterval(timeInterval);
-  console.log("süre doldu");
-  console.log("Toplam tıklama sayısı:" + clickCount);
-
+  
   const result = {
     tıklamaSayısı: clickCount
   };
   let modalMessage = "";
-  let modalMessage2= ``;
+  let modalMessage2 = ``;
   openModal();
   if(clickCount >= 1 && clickCount <=20){
      document.getElementById("turtleimg").style.display = "block";
@@ -28,7 +27,7 @@ if(seconds>=duration){
     modalMessage = "You are a rabbit, looks like you've got some finger there! ";
     modalMessage2 = `You have clicked ${clickCount} times in ${duration} second!!`;
   }
-  else if (clickCount >= 41 &&  clickCount <= 58){
+  else if (clickCount >= 41 &&  clickCount <= 57){
     document.getElementById("monkeyimg").style.display = "block";
     modalMessage = "You are a monkey, perhaps? do monkeys have fast fingers??";
     modalMessage2 = `You have clicked ${clickCount} times in ${duration} second!!`;
@@ -46,12 +45,21 @@ if(seconds>=duration){
 
 document.getElementById("myButton").onclick = function(){
   clickCount++
+  document.getElementById("clickCount").innerHTML = clickCount
   if(!timerStarted){
     timerStarted = true;
   }
 };
 
+
 const restartButton = document.getElementById("restartButton");
+
+restartButton.addEventListener('click', function(){
+  location.reload();
+
+  myButton.style.display = "block";
+  restartButton.style.display = "none";
+});
 
 function openModal() {
   const modal = document.getElementById('myModal');
@@ -68,9 +76,4 @@ document.querySelectorAll('.close').forEach(item => {
   })
 });
 
-restartButton.addEventListener('click', function(){
-  location.reload();
 
-  myButton.style.display = "block";
-  restartButton.style.display = "none";
-});
