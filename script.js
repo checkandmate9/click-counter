@@ -2,7 +2,23 @@ let clickCount = 0;
 let seconds = 0;
 const duration = 5;
 let timerStarted = false;
+let milliseconds = 0;
 
+
+function santisaniye(){
+  if(timerStarted){
+  milliseconds++;
+  document.getElementById("milliseconds").innerHTML = milliseconds
+  
+  if(milliseconds == 100){
+    milliseconds = 0; 
+  }
+  if(seconds >= 5){  
+     document.getElementById("milliseconds").innerHTML = ": 00"
+  }
+ }
+}
+setInterval(santisaniye,10); 
 
 const timeInterval = setInterval(() => {
   if(timerStarted){

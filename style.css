@@ -119,3 +119,9 @@ body{
   bottom: 200px;
   right: 150px;
 }
+
+.timer{
+  position:absolute;
+  top:-30px;
+  left: 270px
+}
