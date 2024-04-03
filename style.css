@@ -74,7 +74,12 @@ body{
   top: 100px;
   right: 56px;
 }
-
+ .modalMessagee3{
+  position: fixed;
+  right: 56px;
+  padding-top: 40px;
+  
+ }
 
 
 .close {
