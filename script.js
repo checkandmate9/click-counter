@@ -57,25 +57,25 @@ if(seconds>=duration){
      document.getElementById("turtleimg").style.display = "block";
      modalMessage = "You are a turtle, get your lazy ass up!!";
      modalMessage2 = `You have clicked ${clickCount} times in ${duration} second!!`;
-     modalMessage3 = `Your CPS(cilck per second) is ${cps}`
+     modalMessage3 = `Your CPS(click per second) is ${cps}`
   }
   else if (clickCount >= 21 && clickCount <=40){
     document.getElementById("rabbitimg").style.display = "block";
     modalMessage = "You are a rabbit, looks like you've got some finger there! ";
     modalMessage2 = `You have clicked ${clickCount} times in ${duration} second!!`;
-    modalMessage3 = `Your CPS(cilck per second) is ${cps}`
+    modalMessage3 = `Your CPS(click per second) is ${cps}`
   }
   else if (clickCount >= 41 &&  clickCount <= 57){
     document.getElementById("monkeyimg").style.display = "block";
     modalMessage = "You are a monkey, perhaps? do monkeys have fast fingers??";
     modalMessage2 = `You have clicked ${clickCount} times in ${duration} second!!`;
-    modalMessage3 = `Your CPS(cilck per second) is ${cps}`
+    modalMessage3 = `Your CPS(click per second) is ${cps}`
   }
   else{
     document.getElementById("cheetahimg").style.display = "block";
     modalMessage = "You are a cheetah, your lover must love you very bad!! ;)";
     modalMessage2 = `You have clicked ${clickCount} times in ${duration} second!!`;
-    modalMessage3 = `Your CPS(cilck per second) is ${cps}`
+    modalMessage3 = `Your CPS(click per second) is ${cps}`
   }
   document.getElementById("modalMessage").textContent = modalMessage;
   document.getElementById("modalMessage2").textContent = modalMessage2;
